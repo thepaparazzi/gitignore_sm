@@ -1,0 +1,98 @@
+# this file should live in the root of a StepMania directory that is also
+# a git repository, named .gitignore.
+
+# community song packs and courses
+/Courses/Pendulum*/
+/Songs/Arrows are Magic Vol. */
+/Songs/Bearpocalypse*/
+/Songs/Cirque du */
+/Songs/D.O.W.N.S*/
+/Songs/Easy As Pie*/
+/Songs/Gensokyo */
+/Songs/ITGAlex's */
+/Songs/Mute Sims*/
+/Songs/Pendulum*/
+/Songs/r21Freak Pad File Comp */
+/Songs/R21Freak Pad File Comp */
+/Songs/r21freak Secret Stepfile Santa */
+/Songs/Sexuality Violation*/
+/Songs/SHARPNELSTREAMZ*/
+/Songs/SPEEEDCOOOORE*/
+/Songs/Sudziosis*/
+/Songs/Tachyon */
+/Songs/TalonMix */
+
+# system junk
+*.dwi
+*.old
+*.reapeaks
+*~
+.DS_Store
+
+# core StepMania directories and loose files
+/changelog.txt
+/Copying.txt
+/copyright.txt
+/crashinfo.txt
+/info.txt
+/Licenses.txt
+/log.txt
+/NEWS
+/README-FIRST.html
+/StepMania.lnk
+/uninstall.exe
+/WhoToSue.txt
+/Announcers/
+/BackgroundEffects/
+/BackgroundTransitions/
+/BGAnimations/
+/Cache/
+/CDTitles/
+/Characters/
+/Data/
+/Docs/
+/Program/
+/RandomMovies/
+/Themes/arcade/
+/Themes/default/
+/Themes/fallback/
+
+# core StepMania noteskins
+/NoteSkins/*/default/
+
+# itg/2 noteskins
+/NoteSkins/dance/cel/
+/NoteSkins/dance/flat/
+/NoteSkins/dance/metal/
+/NoteSkins/dance/robot/
+/NoteSkins/dance/vivid/
+
+# community noteskins
+/NoteSkins/dance/de-default/
+/NoteSkins/dance/DivinEntity/
+
+# openitg specific directories
+/newfolders/
+
+# itg/2 directories
+/Courses/Marathon/
+/Courses/Marathon2/
+/Courses/Workout/
+/Courses/Survival/
+
+# community themes
+/Themes/Groove 2.1/
+/Themes/ps2/
+/Themes/ps2onpc/
+/Themes/SIMPLY LOVE/
+
+# put your exclusions here.
+
+# for example, if you are the author and actively developing a new pack
+# iteration, try this:
+# !/Songs/Your Pack - Iteration XIX/
+
+# a more complete example to allow git to track the 99th iteration of a
+# SPEEEDCOOOORE pack in development while ignoring other iterations:
+# /Songs/SPEEEDCOOOORE*/
+# !/Songs/SPEEEDCOOOORE 99/
